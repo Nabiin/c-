@@ -1,32 +1,39 @@
-/* this is an another example of inxted member function here we call 
-private member function  */
+/* nexted member function 
+in this program one member function call another member function by thir name only */
 
 #include<iostream>
 #include<conio.h>
 using namespace std;
-class intrest{
+class bin{
     private :
-    int p;
-    int t;
-    int r;
-    int findintrest(){
-        return p*t*r/100;
-    }
+    int a;
+    int b;
     public:
-    void getdata(int a,int b,int c=5);
+    void getdata();
+    int calculatedata();
     void printdata();
 };
-void intrest::getdata(int a,int b,int c){
-p=a;
-t=b;
-r=c;
+
+void bin::getdata(){
+    cout << "Enter the value of a " ;
+    cin >> a;
+    cout << "Enter the value of b ";
+    cin >> b;
 }
-void intrest::printdata(){
-cout << "The intrest is " << findintrest();     //CALLING private member function
+inline int bin::calculatedata(){
+    return a*b;
 }
+
+void bin::printdata(){
+    cout << "The multiplication of two number is " << calculatedata();   //nexted functioin
+}
+
+
 int main(){
-    class intrest obj;
-    obj.getdata(500,5);
+    bin obj;
+    obj.getdata();
+    obj.calculatedata();
     obj.printdata();
-    getch(); 
+    getch();
+    return 0;
 }
