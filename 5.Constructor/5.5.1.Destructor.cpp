@@ -16,5 +16,6 @@ int main(){
     cout << "THIS IS THE PROGRAM TO SHOW DESTRUCTOR IN REAL LIFE " << endl;
     bin obj;
     cout <<" The program run successfully " << endl; 
+    //now the destructor is called here i.e at the end 
        return 0;
 }

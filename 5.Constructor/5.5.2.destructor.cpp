@@ -16,7 +16,7 @@ string name;
         roll=s.roll;
     }
     void show(){
-        cout <<"The output is " << name << " has the roll nubmer " << roll << endl;
+        cout <<"The output is " << name<< " has the roll nubmer " << roll<< endl;
     }
 ~bin(){
 cout << endl << "The program run successfully ";
@@ -29,5 +29,6 @@ int main(){
     obj.show();
     obj1.show();
     getch();
-    return 0;
+    //the number of object the no. of times destructor called
+     return 0;
     }
