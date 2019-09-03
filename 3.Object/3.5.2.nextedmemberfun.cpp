@@ -1,4 +1,4 @@
-/* this is an another example of inxted member function here we call 
+/* this is an another example of nested member function here we call 
 private member function  */
 
 #include<iostream>
@@ -25,7 +25,7 @@ void intrest::printdata(){
 cout << "The intrest is " << findintrest();     //CALLING private member function
 }
 int main(){
-    class intrest obj;
+    intrest obj;
     obj.getdata(500,5);
     obj.printdata();
     getch(); 

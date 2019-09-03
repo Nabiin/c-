@@ -32,7 +32,7 @@ void bin::printdata(){
 int main(){
     bin obj;
     obj.getdata();
-    obj.calculatedata();
+    // obj.calculatedata();
     obj.printdata();
     getch();
     return 0;
