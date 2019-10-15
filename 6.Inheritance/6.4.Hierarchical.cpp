@@ -3,23 +3,31 @@
 using namespace std;
 class dad{
     protected:
-    int num;
+    int a;
+    int b;
     public:
-
+    void showdata();
 };
-class son{
-
-
+void dad::showdata(){
+    cout<<"the value of a is " << a << endl << "the value of b is " << b ,
+}
+class son: public dad{
+public:
+void puta(int xyz);
 };
-
-
-
-class dau{
-
+void son::puta(int xyx){
+a=xyz;
+}
+class dau : public dad{
+public:
+void putb(int nn);
 };
+void dau::putb(int nn){
+    b=nn;
+}
 int main(){
 
 
 
-    
+    //for you nabin 
 }

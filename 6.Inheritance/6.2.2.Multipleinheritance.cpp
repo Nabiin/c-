@@ -7,7 +7,7 @@ class demo{
 };
 class sample{
     private:
-    int sum;
+    int sum; //sum is private so cannot access form anywhere
     public:
     int b;
     protected:

@@ -31,9 +31,9 @@ class marks:public student{
     void totalmarks();
     }; 
     void total::totalmarks(){
-        cout <<endl << endl<< "The  roll number of an student is " << roll << endl;
-     t=marks1+marks2;
-     cout << "The total marks is "  << t << endl;
+    cout <<endl << endl<< "The  roll number of an student is " << roll << endl;
+    t=marks1+marks2;
+  cout << "The total marks is "  << t << endl;
     }
     int main(){
         total obj;

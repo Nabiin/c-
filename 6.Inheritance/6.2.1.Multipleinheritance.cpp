@@ -2,10 +2,14 @@
 #include<conio.h>
 using namespace std;
 class demo{
+    
+   void  getadata();
     protected:
     int a;
     public:
-    void getadata();
+    void appdata(){
+        void getdata();
+    }
 };
 void demo::getadata(){
     cout << "Enter the value for a data " ;
